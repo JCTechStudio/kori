@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "kori",
+  "version": "0.0.0",
+  "description": "Monorepo for the @kori/ui library and the Kori docs app",
+  "author": "JCTechStudio",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.20.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "astro": "5.16.13",
+    "typescript": "5.9.3"
+  }
+}
