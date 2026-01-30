@@ -1,8 +1,9 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "../../tsconfig.json",
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"],
+  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "verbatimModuleSyntax": true
   }
 }
