@@ -1,0 +1,34 @@
+---
+title: Button
+description: Permite a los usuarios realizar una acción o evento.
+sidebar:
+  badge:
+    text: New!
+    variant: success
+---
+
+import { TabItem, Tabs } from "@astrojs/starlight/components";
+import { Button, KoriProvider } from "@kori/ui";
+
+## Usage
+
+<Tabs>
+  <TabItem label="Preview">
+    <KoriProvider>
+      <Button>
+        Button
+      </Button>
+    </KoriProvider>
+  </TabItem>
+  <TabItem label="Code">
+    ```astro showLinenumbers
+    ---
+    import {Button} from '@kori/ui';
+    ---
+
+    <Button>
+      Button
+    </Button>
+    ```
+  </TabItem>
+</Tabs>

@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.6",
+    "@astrojs/starlight": "0.37.5",
+    "@astrojs/starlight-tailwind": "4.0.2",
+    "@expressive-code/plugin-line-numbers": "0.41.6",
+    "@kori/ui": "workspace:*",
+    "@tailwindcss/vite": "4.1.18",
+    "astro": "5.17.1",
+    "sharp": "0.34.5",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "vite": "6.4.1"
+  }
+}

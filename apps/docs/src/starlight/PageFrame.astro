@@ -1,0 +1,12 @@
+---
+import Default from "@astrojs/starlight/components/PageFrame.astro";
+import { KoriProvider } from "@kori/ui";
+---
+
+<KoriProvider>
+  <Default>
+    <slot name="header" slot="header" />
+    <slot name="sidebar" slot="sidebar" />
+    <slot />
+  </Default>
+</KoriProvider>

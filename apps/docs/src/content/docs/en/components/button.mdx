@@ -1,0 +1,33 @@
+---
+title: Button
+description: Allows users to trigger an action or event.
+sidebar:
+  badge:
+    text: New!
+    variant: success
+---
+
+import { TabItem, Tabs } from "@astrojs/starlight/components";
+import { Button } from "@kori/ui";
+import CodePreview from "../../../../components/CodePreview.astro";
+
+## Usage
+
+<Tabs>
+  <TabItem label="Preview">
+    <CodePreview>
+      <Button>Button</Button>
+    </CodePreview>
+  </TabItem>
+  <TabItem label="Code">
+    ```astro showLineNumbers
+    ---
+    import {Button} from '@kori/ui';
+    ---
+
+    <Button>
+      Button
+    </Button>
+    ```
+  </TabItem>
+</Tabs>
