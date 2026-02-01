@@ -144,7 +144,7 @@ function makePaletteClass(name: PaletteName) {
       focusRing: scale[spec.light.focusRing],
     }),
     selectors: {
-      "html.dark &": {
+      "[data-theme='dark'] &": {
         vars: assignVars(vars.palette, {
           50: scale[50],
           100: scale[100],

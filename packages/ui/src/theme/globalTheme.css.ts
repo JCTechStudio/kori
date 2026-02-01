@@ -61,7 +61,7 @@ createGlobalTheme(":root", vars, {
   },
 });
 
-createGlobalTheme("html.dark", vars, {
+createGlobalTheme("[data-theme='dark']", vars, {
   ui: {
     bg: colors.black,
     bgSubtle: colors.gray[950],

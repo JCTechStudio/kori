@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "clean": "rimraf dist",
-    "build": "node scripts/build-dist.mjs"
+    "build": "pnpm clean && node scripts/build-dist.mjs"
   },
   "dependencies": {
     "@vanilla-extract/recipes": "0.5.7"
