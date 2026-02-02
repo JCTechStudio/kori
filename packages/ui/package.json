@@ -14,7 +14,11 @@
     "**/*.css"
   ],
   "keywords": [
-    "astro-component"
+    "astro-component",
+    "astro-integration",
+    "withastro",
+    "kori",
+    "ui"
   ],
   "scripts": {
     "clean": "rimraf dist",
